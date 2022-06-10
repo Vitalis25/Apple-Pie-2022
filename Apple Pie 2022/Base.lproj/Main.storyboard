@@ -37,6 +37,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="Q">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Iu-dl-aI4"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdm-jh-h5M">
                                                                 <rect key="frame" x="41.5" y="0.0" width="41.5" height="82"/>
@@ -44,6 +47,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="W">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KSX-zZ-xle"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAG-eE-hF3">
                                                                 <rect key="frame" x="83" y="0.0" width="41" height="82"/>
@@ -51,6 +57,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="E">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s4r-x2-ZHs"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6H-8o-Wce">
                                                                 <rect key="frame" x="124" y="0.0" width="41.5" height="82"/>
@@ -58,6 +67,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="R">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0sg-YF-fEs"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4P-FP-vkz">
                                                                 <rect key="frame" x="165.5" y="0.0" width="41.5" height="82"/>
@@ -65,6 +77,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="T">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qkt-qz-aar"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0EE-qm-8UG">
                                                                 <rect key="frame" x="207" y="0.0" width="41.5" height="82"/>
@@ -72,6 +87,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="Y">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Blg-Ve-Xvl"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWD-Rj-Tcg">
                                                                 <rect key="frame" x="248.5" y="0.0" width="41.5" height="82"/>
@@ -79,6 +97,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="U">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tai-TR-TY4"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9x-fr-wFi">
                                                                 <rect key="frame" x="290" y="0.0" width="41" height="82"/>
@@ -86,6 +107,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="I">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="srL-xQ-ETd"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RzG-GQ-x6D">
                                                                 <rect key="frame" x="331" y="0.0" width="41.5" height="82"/>
@@ -93,6 +117,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="O">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UYF-zz-RFD"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTc-Mk-mEi">
                                                                 <rect key="frame" x="372.5" y="0.0" width="41.5" height="82"/>
@@ -100,6 +127,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="P">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JIk-De-WrU"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
@@ -117,6 +147,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="A">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d6u-VT-Q5r"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S62-aO-ki8">
                                                                 <rect key="frame" x="75.5" y="0.0" width="37.5" height="81.5"/>
@@ -124,6 +157,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="S">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4KT-Ll-yot"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhz-Eb-99a">
                                                                 <rect key="frame" x="113" y="0.0" width="37.5" height="81.5"/>
@@ -131,6 +167,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="D">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K0D-RU-oG9"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDR-LP-GJc">
                                                                 <rect key="frame" x="150.5" y="0.0" width="37.5" height="81.5"/>
@@ -138,6 +177,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="F">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E80-qQ-Rxw"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akz-97-xcN">
                                                                 <rect key="frame" x="188" y="0.0" width="38" height="81.5"/>
@@ -145,6 +187,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="G">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aSV-rT-4Ud"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNe-i7-ihg">
                                                                 <rect key="frame" x="226" y="0.0" width="37.5" height="81.5"/>
@@ -152,6 +197,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="H">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xrx-jQ-I3j"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhp-Xi-qOx">
                                                                 <rect key="frame" x="263.5" y="0.0" width="37.5" height="81.5"/>
@@ -159,6 +207,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="J">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zdr-C4-zg4"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10a-4f-nx3">
                                                                 <rect key="frame" x="301" y="0.0" width="37.5" height="81.5"/>
@@ -166,6 +217,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="K">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QTC-hs-yQ2"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khg-CS-EQp">
                                                                 <rect key="frame" x="338.5" y="0.0" width="38" height="81.5"/>
@@ -173,6 +227,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="L">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jge-Of-bIl"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbA-Lk-12F">
                                                                 <rect key="frame" x="376.5" y="0.0" width="37.5" height="81.5"/>
@@ -200,6 +257,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="Z">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A5s-Ni-av5"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fz-Il-d2j">
                                                                 <rect key="frame" x="113" y="0.0" width="37.5" height="82"/>
@@ -207,6 +267,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="X">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMW-4l-6tT"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F80-Xb-KPl">
                                                                 <rect key="frame" x="150.5" y="0.0" width="37.5" height="82"/>
@@ -214,6 +277,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="C">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bU1-aJ-oXb"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrz-Sl-bZo">
                                                                 <rect key="frame" x="188" y="0.0" width="38" height="82"/>
@@ -221,6 +287,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="V">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w7h-Fz-KNE"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MmP-gs-BTu">
                                                                 <rect key="frame" x="226" y="0.0" width="37.5" height="82"/>
@@ -228,6 +297,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="B">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FGU-fv-KZc"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hy-W4-bj2">
                                                                 <rect key="frame" x="263.5" y="0.0" width="37.5" height="82"/>
@@ -235,6 +307,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="N">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJY-JT-PtJ"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCw-Jb-Ywj">
                                                                 <rect key="frame" x="301" y="0.0" width="37.5" height="82"/>
@@ -242,6 +317,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="M">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AMp-nh-nym"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBf-R0-cA7">
                                                                 <rect key="frame" x="338.5" y="0.0" width="38" height="82"/>
@@ -284,6 +362,37 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FRP-a5-qfo" secondAttribute="trailing" id="mGk-6M-FyI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="correctWordLabel" destination="nNd-zS-fNd" id="fEo-k9-vhe"/>
+                        <outlet property="scoreLabel" destination="Y1h-V3-fh0" id="q17-Lm-0qK"/>
+                        <outlet property="treeImageView" destination="59P-p0-TBG" id="0Fz-ob-zqX"/>
+                        <outletCollection property="letterButtons" destination="r9x-fr-wFi" collectionClass="NSMutableArray" id="1iX-A2-wgX"/>
+                        <outletCollection property="letterButtons" destination="ySF-rR-Lpv" collectionClass="NSMutableArray" id="i7k-Le-ly0"/>
+                        <outletCollection property="letterButtons" destination="Bdm-jh-h5M" collectionClass="NSMutableArray" id="gpw-3f-UcA"/>
+                        <outletCollection property="letterButtons" destination="sAG-eE-hF3" collectionClass="NSMutableArray" id="wYY-co-bEf"/>
+                        <outletCollection property="letterButtons" destination="g6H-8o-Wce" collectionClass="NSMutableArray" id="ra8-VF-GKC"/>
+                        <outletCollection property="letterButtons" destination="S4P-FP-vkz" collectionClass="NSMutableArray" id="l2w-5V-i1a"/>
+                        <outletCollection property="letterButtons" destination="0EE-qm-8UG" collectionClass="NSMutableArray" id="AhG-m1-kc3"/>
+                        <outletCollection property="letterButtons" destination="hWD-Rj-Tcg" collectionClass="NSMutableArray" id="N1p-Wa-SXK"/>
+                        <outletCollection property="letterButtons" destination="RzG-GQ-x6D" collectionClass="NSMutableArray" id="7Pi-Li-zl1"/>
+                        <outletCollection property="letterButtons" destination="uTc-Mk-mEi" collectionClass="NSMutableArray" id="4Zb-2k-XiO"/>
+                        <outletCollection property="letterButtons" destination="fww-WL-wdf" collectionClass="NSMutableArray" id="N3v-5a-63q"/>
+                        <outletCollection property="letterButtons" destination="S62-aO-ki8" collectionClass="NSMutableArray" id="gEu-df-2jE"/>
+                        <outletCollection property="letterButtons" destination="bhz-Eb-99a" collectionClass="NSMutableArray" id="SlM-MI-CoR"/>
+                        <outletCollection property="letterButtons" destination="iDR-LP-GJc" collectionClass="NSMutableArray" id="x9Q-yk-gEb"/>
+                        <outletCollection property="letterButtons" destination="akz-97-xcN" collectionClass="NSMutableArray" id="kyc-zp-Ulo"/>
+                        <outletCollection property="letterButtons" destination="pNe-i7-ihg" collectionClass="NSMutableArray" id="dZ1-sf-XTt"/>
+                        <outletCollection property="letterButtons" destination="lhp-Xi-qOx" collectionClass="NSMutableArray" id="vKg-8x-fDd"/>
+                        <outletCollection property="letterButtons" destination="10a-4f-nx3" collectionClass="NSMutableArray" id="OGE-lm-ONS"/>
+                        <outletCollection property="letterButtons" destination="Khg-CS-EQp" collectionClass="NSMutableArray" id="2l0-WP-6aY"/>
+                        <outletCollection property="letterButtons" destination="gj2-cL-Lr6" collectionClass="NSMutableArray" id="kS4-hL-oZD"/>
+                        <outletCollection property="letterButtons" destination="5fz-Il-d2j" collectionClass="NSMutableArray" id="oj0-g2-Ayc"/>
+                        <outletCollection property="letterButtons" destination="F80-Xb-KPl" collectionClass="NSMutableArray" id="rwM-rt-naO"/>
+                        <outletCollection property="letterButtons" destination="Nrz-Sl-bZo" collectionClass="NSMutableArray" id="2wH-ZO-wfl"/>
+                        <outletCollection property="letterButtons" destination="MmP-gs-BTu" collectionClass="NSMutableArray" id="E5t-QN-Z8D"/>
+                        <outletCollection property="letterButtons" destination="3hy-W4-bj2" collectionClass="NSMutableArray" id="RJO-9I-QIF"/>
+                        <outletCollection property="letterButtons" destination="xCw-Jb-Ywj" collectionClass="NSMutableArray" id="3Xa-7c-L9A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
