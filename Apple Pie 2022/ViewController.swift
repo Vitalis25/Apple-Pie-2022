@@ -152,7 +152,7 @@ class ViewController: UIViewController {
     func updateUI() {
         let movesRemaining = currentGame.incorrectMovesRemaining
         let imageNumber = (movesRemaining + 64) % 8
-        let image = "Tree\(imageNumber)"
+        let image = "GoalKeeper\(imageNumber)"
         treeImageView.image = UIImage(named: image)
         updateCorrectWordLabel()
         scoreLabel.text = "Выигрыши: \(totalWins), проигрыши: \(totalLosses)"

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DA7068E28550A9A00532B9D /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7068C28550A9A00532B9D /* Screenshot01.png */; };
+		0DA7068F28550A9A00532B9D /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7068D28550A9A00532B9D /* Screenshot02.png */; };
 		0DEBBDE12850327400D624FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEBBDE02850327400D624FA /* AppDelegate.swift */; };
 		0DEBBDE32850327400D624FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEBBDE22850327400D624FA /* SceneDelegate.swift */; };
 		0DEBBDE52850327400D624FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEBBDE42850327400D624FA /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DA7068C28550A9A00532B9D /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		0DA7068D28550A9A00532B9D /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 		0DEBBDDD2850327400D624FA /* Apple Pie 2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie 2022.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEBBDE02850327400D624FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DEBBDE22850327400D624FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DA7068B28550A3500532B9D /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0DA7068C28550A9A00532B9D /* Screenshot01.png */,
+				0DA7068D28550A9A00532B9D /* Screenshot02.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		0DEBBDD42850327400D624FA = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		0DEBBDDF2850327400D624FA /* Apple Pie 2022 */ = {
 			isa = PBXGroup;
 			children = (
+				0DA7068B28550A3500532B9D /* Screenshots */,
 				0DEBBDE02850327400D624FA /* AppDelegate.swift */,
 				0DEBBDE92850327500D624FA /* Assets.xcassets */,
 				0DEBBDF42852346900D624FA /* Game.swift */,
@@ -130,6 +144,8 @@
 			files = (
 				0DEBBDED2850327500D624FA /* LaunchScreen.storyboard in Resources */,
 				0DEBBDEA2850327500D624FA /* Assets.xcassets in Resources */,
+				0DA7068E28550A9A00532B9D /* Screenshot01.png in Resources */,
+				0DA7068F28550A9A00532B9D /* Screenshot02.png in Resources */,
 				0DEBBDE82850327400D624FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
