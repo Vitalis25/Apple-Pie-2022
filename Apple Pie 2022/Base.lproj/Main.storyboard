@@ -29,10 +29,10 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="I9V-Ei-Im9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="82"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="58.5"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySF-rR-Lpv">
-                                                                <rect key="frame" x="0.0" y="0.0" width="41.5" height="82"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="41.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="Q"/>
@@ -41,7 +41,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdm-jh-h5M">
-                                                                <rect key="frame" x="41.5" y="0.0" width="41.5" height="82"/>
+                                                                <rect key="frame" x="41.5" y="0.0" width="41.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="W"/>
@@ -50,7 +50,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAG-eE-hF3">
-                                                                <rect key="frame" x="83" y="0.0" width="41" height="82"/>
+                                                                <rect key="frame" x="83" y="0.0" width="41" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="E"/>
@@ -59,7 +59,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6H-8o-Wce">
-                                                                <rect key="frame" x="124" y="0.0" width="41.5" height="82"/>
+                                                                <rect key="frame" x="124" y="0.0" width="41.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="R"/>
@@ -68,7 +68,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4P-FP-vkz">
-                                                                <rect key="frame" x="165.5" y="0.0" width="41.5" height="82"/>
+                                                                <rect key="frame" x="165.5" y="0.0" width="41.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="T"/>
@@ -77,7 +77,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0EE-qm-8UG">
-                                                                <rect key="frame" x="207" y="0.0" width="41.5" height="82"/>
+                                                                <rect key="frame" x="207" y="0.0" width="41.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="Y"/>
@@ -86,7 +86,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWD-Rj-Tcg">
-                                                                <rect key="frame" x="248.5" y="0.0" width="41.5" height="82"/>
+                                                                <rect key="frame" x="248.5" y="0.0" width="41.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="U"/>
@@ -95,7 +95,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9x-fr-wFi">
-                                                                <rect key="frame" x="290" y="0.0" width="41" height="82"/>
+                                                                <rect key="frame" x="290" y="0.0" width="41" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="I"/>
@@ -104,7 +104,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RzG-GQ-x6D">
-                                                                <rect key="frame" x="331" y="0.0" width="41.5" height="82"/>
+                                                                <rect key="frame" x="331" y="0.0" width="41.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="O"/>
@@ -113,7 +113,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTc-Mk-mEi">
-                                                                <rect key="frame" x="372.5" y="0.0" width="41.5" height="82"/>
+                                                                <rect key="frame" x="372.5" y="0.0" width="41.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="P"/>
@@ -124,15 +124,15 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6us-GR-HxX">
-                                                        <rect key="frame" x="0.0" y="82" width="414" height="81.5"/>
+                                                        <rect key="frame" x="0.0" y="58.5" width="414" height="58.5"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6D-Px-41m">
-                                                                <rect key="frame" x="0.0" y="0.0" width="37.5" height="81.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="37.5" height="58.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fww-WL-wdf">
-                                                                <rect key="frame" x="37.5" y="0.0" width="38" height="81.5"/>
+                                                                <rect key="frame" x="37.5" y="0.0" width="38" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="A"/>
@@ -141,7 +141,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S62-aO-ki8">
-                                                                <rect key="frame" x="75.5" y="0.0" width="37.5" height="81.5"/>
+                                                                <rect key="frame" x="75.5" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="S"/>
@@ -150,7 +150,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhz-Eb-99a">
-                                                                <rect key="frame" x="113" y="0.0" width="37.5" height="81.5"/>
+                                                                <rect key="frame" x="113" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="D"/>
@@ -159,7 +159,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDR-LP-GJc">
-                                                                <rect key="frame" x="150.5" y="0.0" width="37.5" height="81.5"/>
+                                                                <rect key="frame" x="150.5" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="F"/>
@@ -168,7 +168,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akz-97-xcN">
-                                                                <rect key="frame" x="188" y="0.0" width="38" height="81.5"/>
+                                                                <rect key="frame" x="188" y="0.0" width="38" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="G"/>
@@ -177,7 +177,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNe-i7-ihg">
-                                                                <rect key="frame" x="226" y="0.0" width="37.5" height="81.5"/>
+                                                                <rect key="frame" x="226" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="H"/>
@@ -186,7 +186,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhp-Xi-qOx">
-                                                                <rect key="frame" x="263.5" y="0.0" width="37.5" height="81.5"/>
+                                                                <rect key="frame" x="263.5" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="J"/>
@@ -195,7 +195,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10a-4f-nx3">
-                                                                <rect key="frame" x="301" y="0.0" width="37.5" height="81.5"/>
+                                                                <rect key="frame" x="301" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="K"/>
@@ -204,7 +204,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khg-CS-EQp">
-                                                                <rect key="frame" x="338.5" y="0.0" width="38" height="81.5"/>
+                                                                <rect key="frame" x="338.5" y="0.0" width="38" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="L"/>
@@ -213,27 +213,27 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbA-Lk-12F">
-                                                                <rect key="frame" x="376.5" y="0.0" width="37.5" height="81.5"/>
+                                                                <rect key="frame" x="376.5" y="0.0" width="37.5" height="58.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yCq-8G-5zu">
-                                                        <rect key="frame" x="0.0" y="163.5" width="414" height="82"/>
+                                                        <rect key="frame" x="0.0" y="117" width="414" height="58.5"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2LJ-QU-OW4">
-                                                                <rect key="frame" x="0.0" y="0.0" width="37.5" height="82"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="37.5" height="58.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9P-CS-yex">
-                                                                <rect key="frame" x="37.5" y="0.0" width="38" height="82"/>
+                                                                <rect key="frame" x="37.5" y="0.0" width="38" height="58.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gj2-cL-Lr6">
-                                                                <rect key="frame" x="75.5" y="0.0" width="37.5" height="82"/>
+                                                                <rect key="frame" x="75.5" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="Z"/>
@@ -242,7 +242,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fz-Il-d2j">
-                                                                <rect key="frame" x="113" y="0.0" width="37.5" height="82"/>
+                                                                <rect key="frame" x="113" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="X"/>
@@ -251,7 +251,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F80-Xb-KPl">
-                                                                <rect key="frame" x="150.5" y="0.0" width="37.5" height="82"/>
+                                                                <rect key="frame" x="150.5" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="C"/>
@@ -260,7 +260,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrz-Sl-bZo">
-                                                                <rect key="frame" x="188" y="0.0" width="38" height="82"/>
+                                                                <rect key="frame" x="188" y="0.0" width="38" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="V"/>
@@ -269,7 +269,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MmP-gs-BTu">
-                                                                <rect key="frame" x="226" y="0.0" width="37.5" height="82"/>
+                                                                <rect key="frame" x="226" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="B"/>
@@ -278,7 +278,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hy-W4-bj2">
-                                                                <rect key="frame" x="263.5" y="0.0" width="37.5" height="82"/>
+                                                                <rect key="frame" x="263.5" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="N"/>
@@ -287,7 +287,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCw-Jb-Ywj">
-                                                                <rect key="frame" x="301" y="0.0" width="37.5" height="82"/>
+                                                                <rect key="frame" x="301" y="0.0" width="37.5" height="58.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="M"/>
@@ -296,29 +296,45 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBf-R0-cA7">
-                                                                <rect key="frame" x="338.5" y="0.0" width="38" height="82"/>
+                                                                <rect key="frame" x="338.5" y="0.0" width="38" height="58.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="luJ-y9-aZf">
-                                                                <rect key="frame" x="376.5" y="0.0" width="37.5" height="82"/>
+                                                                <rect key="frame" x="376.5" y="0.0" width="37.5" height="58.5"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNd-zS-fNd">
-                                                        <rect key="frame" x="0.0" y="245.5" width="414" height="81.5"/>
+                                                        <rect key="frame" x="0.0" y="175.5" width="414" height="58"/>
                                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1h-V3-fh0">
-                                                        <rect key="frame" x="0.0" y="327" width="414" height="82"/>
+                                                        <rect key="frame" x="0.0" y="233.5" width="414" height="58.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeU-Ku-KGT">
+                                                        <rect key="frame" x="0.0" y="292" width="414" height="58.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUX-zs-uox">
+                                                        <rect key="frame" x="0.0" y="350.5" width="414" height="58.5"/>
+                                                        <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="0.42723821172651077" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="НОВАЯ ИГРА"/>
+                                                        <connections>
+                                                            <action selector="newGamePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="335-nJ-CCn"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
@@ -337,7 +353,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="NewGame" destination="IUX-zs-uox" id="do0-7O-RQg"/>
                         <outlet property="correctWordLabel" destination="nNd-zS-fNd" id="fEo-k9-vhe"/>
+                        <outlet property="messageLabel" destination="LeU-Ku-KGT" id="D61-rV-M1H"/>
                         <outlet property="scoreLabel" destination="Y1h-V3-fh0" id="q17-Lm-0qK"/>
                         <outlet property="treeImageView" destination="59P-p0-TBG" id="0Fz-ob-zqX"/>
                         <outletCollection property="letterButtons" destination="r9x-fr-wFi" collectionClass="NSMutableArray" id="1iX-A2-wgX"/>

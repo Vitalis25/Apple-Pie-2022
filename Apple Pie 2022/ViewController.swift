@@ -14,11 +14,13 @@ class ViewController: UIViewController {
     @IBOutlet var letterButtons: [UIButton]!
     @IBOutlet weak var correctWordLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var NewGame: UIButton!
+    @IBOutlet weak var messageLabel: UILabel!
     
     // MARK: - Properties
     var currentGame: Game!
     let incorrectMovesAllowed = 7
-    var listOfWords = [
+    var listOfWordsAll = [
         "Ronaldo",
         "Aguero",
         "Aubameyang",
@@ -101,6 +103,7 @@ class ViewController: UIViewController {
         "Yashin",
         "Zidane",
     ].shuffled()
+    
     var totalWins = 0 {
         didSet {
             newRound()
@@ -113,13 +116,26 @@ class ViewController: UIViewController {
     }
     
     // MARK: Methods
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        NewGame.isHidden = true
+        newRound()
+    }
+    
     func enableButtons(_ enable: Bool = true) {
         for button in letterButtons {
             button.isEnabled = enable
         }
     }
     
+    var listOfWords: [String] = []
+    
     func newRound () {
+        if listOfWords.isEmpty {
+            listOfWords = listOfWordsAll
+            enableButtons(false)
+        }
         guard !listOfWords.isEmpty else {
             enableButtons(false)
             updateUI()
@@ -136,6 +152,7 @@ class ViewController: UIViewController {
         for letter in currentGame.guessedWord {
             displayWord.append(String(letter))
         }
+        correctWordLabel.textColor = .systemGreen
         correctWordLabel.text = displayWord.joined(separator: " ")
     }
     
@@ -156,11 +173,29 @@ class ViewController: UIViewController {
         treeImageView.image = UIImage(named: image)
         updateCorrectWordLabel()
         scoreLabel.text = "Выигрыши: \(totalWins), проигрыши: \(totalLosses)"
+        scoreLabel.textColor = .purple
+        if totalWins == 7 {
+            NewGame.isHidden = false
+            messageLabel.text = "Ура! Вы забили гол!"
+            messageLabel.textColor = .systemTeal
+            enableButtons(false)
+        } else if totalLosses == 5 {
+            NewGame.isHidden = false
+            messageLabel.text = "Эх, будьте точнее в следующий раз!"
+            messageLabel.textColor = .systemBrown
+            enableButtons(false)
+        } else {
+            NewGame.isHidden = true
+            messageLabel.text = ""
+        }
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    func setup() {
+        enableButtons()
+        totalWins = 0
+        totalLosses = 0
         newRound()
+        updateUI()
     }
     
     // MARK: - IB Actions
@@ -170,5 +205,13 @@ class ViewController: UIViewController {
         currentGame.playerGuessed(letter: Character(letter))
         updateState()
     }
+    
+    @IBAction func newGamePressed(_ sender: UIButton) {
+        setup()
+        
+        
+    }
 }
+
+
 
