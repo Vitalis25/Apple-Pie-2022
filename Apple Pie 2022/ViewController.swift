@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var letterButtons: [UIButton]!
     @IBOutlet weak var correctWordLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
-    @IBOutlet weak var NewGame: UIButton!
+    @IBOutlet weak var newGame: UIButton!
     @IBOutlet weak var messageLabel: UILabel!
     
     // MARK: - Properties
@@ -119,7 +119,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        NewGame.isHidden = true
+        newGame.isHidden = true
         newRound()
     }
     
@@ -175,17 +175,17 @@ class ViewController: UIViewController {
         scoreLabel.text = "Выигрыши: \(totalWins), проигрыши: \(totalLosses)"
         scoreLabel.textColor = .purple
         if totalWins == 7 {
-            NewGame.isHidden = false
+            newGame.isHidden = false
             messageLabel.text = "Ура! Вы забили гол!"
             messageLabel.textColor = .systemTeal
             enableButtons(false)
         } else if totalLosses == 5 {
-            NewGame.isHidden = false
+            newGame.isHidden = false
             messageLabel.text = "Эх, будьте точнее в следующий раз!"
             messageLabel.textColor = .systemBrown
             enableButtons(false)
         } else {
-            NewGame.isHidden = true
+            newGame.isHidden = true
             messageLabel.text = ""
         }
     }
